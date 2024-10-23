@@ -15,8 +15,6 @@
             <max_wheel_torque>200</max_wheel_torque>
             <max_wheel_acceleration>10.0</max_wheel_acceleration>
 
-            <!-- Input -->
-            <topic>cmd_vel</topic>
 
             
             <!-- Output -->
