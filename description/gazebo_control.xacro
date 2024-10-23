@@ -3,6 +3,11 @@
 
     <gazebo>
         <plugin name='diff_drive' filename='libgazebo_ros_diff_drive.so'>
+
+            <!-- Misc Configs-->
+            <always_on>true</always_on>
+            <legacy_mode>false</legacy_mode>
+            <update_rate>10</update_rate>
         
             <!-- Wheel informataion -->
             <left_joint>left_wheel_joint</left_joint>
